@@ -375,8 +375,7 @@ namespace FirstApplication.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    DrivingLicense = model.DrivingLicense,
-                    Phone = model.Phone
+                    DrivingLicense = model.DrivingLicense
                 };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
