@@ -373,6 +373,7 @@ namespace FirstApplication.Controllers
                 }
                 var user = new ApplicationUser
                 {
+                    Phone = model.Phone,
                     UserName = model.Email,
                     Email = model.Email,
                     DrivingLicense = model.DrivingLicense

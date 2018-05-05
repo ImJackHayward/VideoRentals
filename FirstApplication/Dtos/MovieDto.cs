@@ -23,5 +23,8 @@ namespace MyFirstApplication.Dtos
 
         [Range(1, 20)]
         public byte NumberInStock { get; set; }
+
+        [Range(1, 20)]
+        public byte NumberAvailable { get; set; }
     }
 }

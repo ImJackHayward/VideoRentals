@@ -118,6 +118,7 @@ namespace FirstApplication.Controllers
                 movieInDb.Name = movie.Name;
                 movieInDb.GenreId = movie.GenreId;
                 movieInDb.NumberInStock = movie.NumberInStock;
+                movieInDb.NumberInStock = movie.NumberAvailable;
                 movieInDb.ReleaseDate = movie.ReleaseDate;
             }
 
